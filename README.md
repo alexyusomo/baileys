@@ -1,10 +1,5 @@
 # <div align='center'>alexyusomo</div>
 
-<p align="center">
-
-  <img src="https://files.catbox.moe/i497x5.jpg" width="180" alt="Pou"/>
-
-</p>
 
 <div align='center'>
 
@@ -157,7 +152,7 @@ await client.sendMessage(m.chat, {
 ## Send an orderMessage
 ```javascript
 const fs = require('fs');
-const thumbnail = fs.readFileSync('./pouthumb.jpg');
+const thumbnail = fs.readFileSync('./codetumb.jpg');
 
 await client.sendMessage(m.chat, {
   thumbnail,
@@ -191,7 +186,7 @@ await client.relayMessage(m.chat, {
   productMessage: {
     title: "Product.pdf",
     description: "Product description",
-    thumbnail: { url: "./pouthumb.jpg" },
+    thumbnail: { url: "./codetumb.jpg" },
     productId: "EXAMPLE_TOKEN",
     retailerId: "EXAMPLE_RETAILER_ID",
     url: "https://example.com",
